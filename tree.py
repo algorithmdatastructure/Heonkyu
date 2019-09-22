@@ -38,6 +38,7 @@ class Solution(object):
             l=l+r
         l=l+[root.val]
         return l
+    
 """
 3. Invert binary Tree
 https://leetcode.com/problems/invert-binary-tree/
