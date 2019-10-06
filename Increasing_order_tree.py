@@ -34,9 +34,11 @@ class Solution(object):
 
         global tree
         tree = TreeNode(l[0])
+        right = tree.right
         for i in range(1, len(l)):
-            right = tree.right
             right = TreeNode(l[i])
+            right = right.right
+
 
         print(tree)
         return tree
